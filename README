@@ -1,0 +1,10 @@
+This is basicly a fork of django-openid (pre github move/revrite), with this short list of changes:
+
+    * python-openid 2.x.x support
+    * SimpleRegistration (redone), Pape and AttributeExchange extension support
+    * bug fixes from django-openid Issue tracker (special thanks to reporters and patchers)
+    * Clearer settings and improved docs (my personal opinion, I could be wrong) 
+
+django-openid-consumer aims to do only one thing, simple OpenID auth (with all the extension s python-openid supports) for comments on blogs and similar. It doesen't aim to provide any further integration (like for example tighter integration with auth) with Django.
+
+For up to date install instructions and documentation please visit the project wiki: http://code.google.com/p/django-openid-consumer/w/list
